@@ -11,7 +11,7 @@ public class ExampleTest extends RestAssuredExample {
 
     @BeforeClass
     public static void setup() {
-        RestAssured.basePath = "https://jsonplaceholder.typicode.com";
+        RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
     }
     @Test
     public void testRequest() {
